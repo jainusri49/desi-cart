@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(202, 225, 166);
+    background-color: aquamarine;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin: auto;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.category {
+    background-color: grey;
+}
+
+.category-card {
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Add transition for box-shadow */
+    background-color: aliceblue; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for elevation */
+}
+
+.category-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+
+.countdown {
+    font-weight: bold;
+    color: red;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.images {
+    margin-top: 10px;
+}
